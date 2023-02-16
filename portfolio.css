@@ -9,12 +9,14 @@
     width: 400px;
     background-color: #F2EDDF;
     background-image: url('./img/IMG-0666-Original.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
 }
 
 .name {
-    font-size: 80px;
+    font-size: 4rem;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
 }
@@ -31,49 +33,52 @@
 .resumecircle {
     height: 200px;
     width: 200px;
-    background-color: aqua;
+    background-color:grey;
     padding: 5%;
     color: white;
 }
 
 .resumecircle:hover {
-    background-color: rgb(7, 121, 121);
+    background-color: #9b9997;
 }
 
 .workcircle {
     height: 200px;
     width: 200px;
-    background-color: violet;
+    background-color:grey;
     padding: 5%;
     color: white;
 }
 
 .workcircle:hover {
-    background-color: rgb(228, 18, 228);
+    background-color: grey
 }
 
 .skillcircle {
     height: 200px;
     width: 200px;
-    background-color: #E37969;
+    background-color:grey;
     padding: 5%;
     color: white;
 }
 
 .skillcircle:hover {
-    background-color: #f22808;
+    background-color: grey
 }
 
 .footerdiv {
     height: auto;
-    background-color: #E37969;
-    color: white;
+    background-color: #EFEEED;
+    color: grey;
+    width: 100%;
 }
 
 .icondiv {
-    height: 50px;
+    padding: 5px;
+    border-radius: 100%;
     width: 50px;
-    background-color: turquoise;
+    height: 50px;
+    background-color: rgb(9, 10, 10);
     color: white;
 }
 
@@ -101,30 +106,28 @@
 .button {
     color: white;
     border: none;
-    background-color: violet;
-
+    background-color:grey;
 }
 
 .resume {
     color: white;
     border: none;
-    background-color: aqua;
+    background-color:grey;
 
 }
 
 .button:hover {
-    background-color: rgb(228, 18, 228);
-
+    background-color: #9b9997;
 }
 
 .skills {
-    background-color: #E37969;
+    background-color:grey;
     color: white;
     border: none;
 }
 
 .skills:hover {
-    background-color: #f22808;
+    background-color: #9b9997;
 }
 
 .linkdn {
@@ -161,15 +164,13 @@
 .infoparalink:hover {
     text-decoration: underline #49A2DE;
 }
-.projectdiv{
-    height: 400px;
-}
+
 .cardlink{
     color: #0795f4;
     text-decoration: underline #49A2DE;
 }
 .transition{
     color: #4d4d4d;
-    background-color: wheat;
+    background-color: rgb(220, 219, 217);
    
 }
